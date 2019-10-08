@@ -24,13 +24,13 @@ EDIT : Depuis la mise à jour d'Avril 2019 de windows 10, il se peut que WAMP Se
 
 Vous devez installer sur votre appareil l'environnement [XAMPP](https://www.apachefriends.org/fr/index.html) qui, comme WAMP, contient tout ce qui est necessaire pour que ces ressources fonctionnent.
 
-#### Si vous êtes sur une distribution linux
+#### Si vous êtes sur une distribution Linux
 
 Bienvenue dans un monde où tout (ou presque ;D) est à installer manuellement avec des lignes de commandes.
-
 Dans un premier temps, vous devez installer les paquets d'Apache (qui va gérer vos pages HTML) :
 
-``` apt-get install apache2 apache2-doc
+```
+apt-get install apache2 apache2-doc
 ```
 
 Puis, vous devrez installer PHP 7 (PHP 5 est assez obsolète donc je ne vous recommande pas son utilisation) :
@@ -42,9 +42,20 @@ echo "deb https://packages.sury.org/php/ jessie main" | tee /etc/apt/sources.lis
 apt-get install php7.2
 ```
 
+Enfin, PhPMyAdmin devra être installer pour finaliser l'instalation de votre environement :
 
+```
+apt-get install phpmyadmin
+```
 
+Cette instalation étant un peu complexe, voici quelques liens utiles selon votre distribution :
 
++ [Debian](https://www.lecoindunet.com/installer-serveur-web-lamp-sous-debian-8-jessie-1519)
++ [Ubuntu](https://doc.ubuntu-fr.org/lamp)
++ [Arch Linux](https://wiki.archlinux.fr/LAMP)
++ [Raspbian](https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/)
+
+Vous voilà enfin prêts pour votre projet ! :D
 
 ## Contenu [[revenir au sommaire]](#sommaire)
 
