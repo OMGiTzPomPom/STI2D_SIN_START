@@ -85,7 +85,7 @@ try {
 ?>
 
 <body>
-    <p id="desc">Voici un appercu de la table infos.</p>
+    <p id="desc">Voici un appercu de la table infos après modification.</p>
     <table>
       <tr>
         <th class="E">ID</th>
