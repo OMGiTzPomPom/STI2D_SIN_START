@@ -6,9 +6,9 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 
 + **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire)**
 + **[Contenu](#contenu-revenir-au-sommaire)**
-+ **[Scripts PHP](#scripts-php-revenir-au-sommaire)**
-+ **[Programmes arduino](#programmes-arduino-revenir-au-sommaire)**
-+ **[Scripts SQL](#scripts-sql-revenir-au-sommaire)**
++ **[Scripts PHP](#scripts-php)**
++ **[Programmes arduino](#programmes-arduino)**
++ **[Scripts SQL](#scripts-sql)**
 
 ## Pré-requis [[revenir au sommaire]](#sommaire)
 
@@ -58,20 +58,17 @@ Cette instalation étant un peu complexe, voici quelques liens utiles selon votr
 Vous voilà enfin prêts pour votre projet ! :D
 
 ## Contenu [[revenir au sommaire]](#sommaire)
+### Scripts PHP
 
+Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lier votre base de données MySQL avec votre serveur web. Par exemple lire & écrire dans une base de données, envoyer à un client ou serveur une requête web.
 
+### Programmes Arduino
 
-### Scripts PHP [[revenir au sommaire]](#sommaire)
+Dans le dossier arduino, vous trouverez quelques programmes qui vous permettrons d'envoyer et de recevoir des informations avec votre carte arduino. Vous trouverez égalements quelques astuces pour construire vos programmes.
 
-Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lier votre base de données MySQL avec votre serveur web.
+### Scripts SQL
 
-### Programmes Arduino [[revenir au sommaire]](#sommaire)
-
-
-
-### Scripts SQL [[revenir au sommaire]](#sommaire)
-
-
+Dans le dossier SQL, vous trouverez quelques scripts simple pour préparer vos requêtes avec PHP
 
 ## License [[revenir au sommaire]](#sommaire)
 
