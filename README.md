@@ -1,8 +1,38 @@
-# STI2D_SIN_START
+# STI2D SIN START
 
 Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre projet de terminale.
 
 ## Sommaire
+
+1. **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire))**
+2. **[Contenu](contenu-revenir-au-sommaire)**
+  1. **[Scripts PHP](scripts-php-revenir-au-sommaire)**
+  2. **[Programmes arduino](programmes-arduino-revenir-au-sommaire)**
+  3. **[Scripts SQL](scripts-sql-revenir-au-sommaire)**
+
+## Pré-requis [[revenir au sommaire]](#sommaire)
+
+Pour que ces ressources fonctionnent il faut que vous ayez au préalable un environnement de travail adapté.
+
+> Si vous êtes sur windows
+
+> Si vous êtes sur MacOS
+
+> Si vous êtes sur une distribution linux
+
+## Contenu [[revenir au sommaire]](#sommaire)
+
+
+
+### Scripts PHP [[revenir au sommaire]](#sommaire)
+
+Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lier votre base de données MySQL avec votre serveur web.
+
+### Programmes Arduino [[revenir au sommaire]](#sommaire)
+
+
+
+### Scripts SQL [[revenir au sommaire]](#sommaire)
 
 
 
