@@ -9,9 +9,7 @@
  * | @license    https://creativecommons.org/licenses/by/4.0/  License CC BY 4.0|
  * | @since      File available since 10/08/2019                                |
  *  ----------------------------------------------------------------------------
- */
-
-/**
+ * 
  * Le but de ce script est récupérer le contenu d'une table SQL du type
  * 
  *  TABLE NAME : infos
@@ -21,7 +19,6 @@
  *  |1          |Dupont         |Jean              |
  *  ------------------------------------------------
  */
-
 
 include "database.php"; //cette instruction est necessaire pour obtenir la configuration que vous avez définie dans le fichier databases.php
 
@@ -36,10 +33,9 @@ try {
 $reponse = $bdd->query('SELECT * FROM infos WHERE id=1');
 $donnee = $reponse->fetch();
 ?>
+
 <!DOCTYPE html>
-
 <html>
-
 <head>
     <style>
     table, th, td {
@@ -62,24 +58,14 @@ $donnee = $reponse->fetch();
         <th class="E">Prénom</th>
       </tr>
       <tr>
-        <td><?php echo $donnee['id']; ?></td>
+        <td><?php echo $donnee['id']; ?></td><!-- Sur ces 3 lignes, on affiche les données contenues dans le tableau "$données" -->
         <td><?php echo $donnee['nom']; ?></td>
         <td><?php echo $donnee['prenom']; ?></td>
       </tr>
     </table>
 </body>
-
-
-
-
-
 </html>
 
 <?php
-
 $reponse -> closeCursor(); // Termine le traitement de la requête
-
-
-
-
 ?>
