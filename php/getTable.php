@@ -47,10 +47,15 @@ $donnee = $reponse->fetch();
       padding-right:15px;
       padding-left:15px;
     }
+
+    p#desc {
+      color : red;
+    }
     </style>
 </head>
 
 <body>
+    <p id="desc">Voici un appercu de la table infos.</p>
     <table>
       <tr>
         <th class="E">ID</th>
