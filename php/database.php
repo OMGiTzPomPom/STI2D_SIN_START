@@ -4,8 +4,6 @@
  * |                                database.php                                |
  * |                    Objectif : paramétrer la base de données                |
  * |                                                                            |
- * | @category   CategoryName                                                   |
- * | @package    PackageName                                                    |
  * | @author     JunkJumper                                                     |
  * | @copyright  2019 - JunkJumper                                              |
  * | @license    https://creativecommons.org/licenses/by/4.0/  License CC BY 4.0|
