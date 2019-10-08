@@ -5,10 +5,10 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 ## Sommaire
 
 + **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire)**
-+ **[Contenu](contenu-revenir-au-sommaire)**
-+ **[Scripts PHP](scripts-php-revenir-au-sommaire)**
-+ **[Programmes arduino](programmes-arduino-revenir-au-sommaire)**
-+ **[Scripts SQL](scripts-sql-revenir-au-sommaire)**
++ **[Contenu](#contenu-revenir-au-sommaire)**
++ **[Scripts PHP](#scripts-php-revenir-au-sommaire)**
++ **[Programmes arduino](#programmes-arduino-revenir-au-sommaire)**
++ **[Scripts SQL](#scripts-sql-revenir-au-sommaire)**
 
 ## Pré-requis [[revenir au sommaire]](#sommaire)
 
