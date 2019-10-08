@@ -4,7 +4,7 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 
 ## Sommaire
 
-+ **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire))**
++ **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire)**
 + **[Contenu](contenu-revenir-au-sommaire)**
 + **[Scripts PHP](scripts-php-revenir-au-sommaire)**
 + **[Programmes arduino](programmes-arduino-revenir-au-sommaire)**
@@ -14,11 +14,35 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 
 Pour que ces ressources fonctionnent il faut que vous ayez au préalable un environnement de travail adapté.
 
-> Si vous êtes sur windows
+#### Si vous êtes sur windows
 
-> Si vous êtes sur MacOS
+Vous devez utiliser un logiciel appelé [WAMP Server](http://www.wampserver.com/) qui vous permettra d'utiliser toutes les ressources de ce repo facilement. Cela peut être utile pour travailler de votre côter sur otre machine personnelle.
 
-> Si vous êtes sur une distribution linux
+EDIT : Depuis la mise à jour d'Avril 2019 de windows 10, il se peut que WAMP Server ai des problèmes de fonctionnement, il existe une alternative nommée [UWamp](https://www.uwamp.com/fr/) qui a l'avantage de pouvoir être utilisé de manière portable (mais assez instable).
+
+#### Si vous êtes sur MacOS
+
+Vous devez installer sur votre appareil l'environnement [XAMPP](https://www.apachefriends.org/fr/index.html) qui, comme WAMP, contient tout ce qui est necessaire pour que ces ressources fonctionnent.
+
+#### Si vous êtes sur une distribution linux
+
+Bienvenue dans un monde où tout (ou presque ;D) est à installer manuellement avec des lignes de commandes.
+
+Dans un premier temps, vous devez installer les paquets d'Apache (qui va gérer vos pages HTML) :
+
+> apt-get install apache2 apache2-doc
+
+Puis, vous devrez installer PHP 7 (PHP 5 est assez obsolète donc je ne vous recommande pas son utilisation) :
+
+> apt-get install ca-certificates apt-transport-https 
+> wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
+> echo "deb https://packages.sury.org/php/ jessie main" | tee /etc/apt/sources.list.d/php.list
+> apt-get install php7.2
+
+
+
+
+
 
 ## Contenu [[revenir au sommaire]](#sommaire)
 
