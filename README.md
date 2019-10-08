@@ -4,11 +4,11 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 
 ## Sommaire
 
-1. **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire))**
-2. **[Contenu](contenu-revenir-au-sommaire)**
-⋅⋅1. **[Scripts PHP](scripts-php-revenir-au-sommaire)**
-⋅⋅2. **[Programmes arduino](programmes-arduino-revenir-au-sommaire)**
-⋅⋅3. **[Scripts SQL](scripts-sql-revenir-au-sommaire)**
++ **[Pré-requis](#pr%C3%A9-requis-revenir-au-sommaire))**
++ **[Contenu](contenu-revenir-au-sommaire)**
++ **[Scripts PHP](scripts-php-revenir-au-sommaire)**
++ **[Programmes arduino](programmes-arduino-revenir-au-sommaire)**
++ **[Scripts SQL](scripts-sql-revenir-au-sommaire)**
 
 ## Pré-requis [[revenir au sommaire]](#sommaire)
 
