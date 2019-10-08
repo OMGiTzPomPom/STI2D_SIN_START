@@ -30,15 +30,17 @@ Bienvenue dans un monde où tout (ou presque ;D) est à installer manuellement a
 
 Dans un premier temps, vous devez installer les paquets d'Apache (qui va gérer vos pages HTML) :
 
-> apt-get install apache2 apache2-doc
+``` apt-get install apache2 apache2-doc
+```
 
 Puis, vous devrez installer PHP 7 (PHP 5 est assez obsolète donc je ne vous recommande pas son utilisation) :
 
-> apt-get install ca-certificates apt-transport-https 
-> wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
-> echo "deb https://packages.sury.org/php/ jessie main" | tee /etc/apt/sources.list.d/php.list
-> apt-get install php7.2
-
+```
+apt-get install ca-certificates apt-transport-https 
+wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
+echo "deb https://packages.sury.org/php/ jessie main" | tee /etc/apt/sources.list.d/php.list
+apt-get install php7.2
+```
 
 
 
