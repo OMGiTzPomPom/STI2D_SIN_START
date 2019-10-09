@@ -15,17 +15,17 @@ Bienvenue dans ce repo git contenant l'essentiel pour pouvoir commencer votre pr
 
 Pour que ces ressources fonctionnent il faut que vous ayez au préalable un environnement de travail adapté.
 
-#### Si vous êtes sur windows
+### Si vous êtes sur windows
 
 Vous devez utiliser un logiciel appelé [WAMP Server](http://www.wampserver.com/) qui vous permettra d'utiliser toutes les ressources de ce repo facilement. Cela peut être utile pour travailler de votre côter sur otre machine personnelle.
 
 EDIT : Depuis la mise à jour d'Avril 2019 de windows 10, il se peut que WAMP Server ai des problèmes de fonctionnement, il existe une alternative nommée [UWamp](https://www.uwamp.com/fr/) qui a l'avantage de pouvoir être utilisé de manière portable (mais assez instable).
 
-#### Si vous êtes sur MacOS
+### Si vous êtes sur MacOS
 
 Vous devez installer sur votre appareil l'environnement [XAMPP](https://www.apachefriends.org/fr/index.html) qui, comme WAMP, contient tout ce qui est necessaire pour que ces ressources fonctionnent.
 
-#### Si vous êtes sur une distribution Linux
+### Si vous êtes sur une distribution Linux
 
 Bienvenue dans un monde où tout (ou presque ;D) est à installer manuellement avec des lignes de commandes.
 Dans un premier temps, vous devez installer les paquets d'Apache (qui va gérer vos pages HTML) :
@@ -59,7 +59,7 @@ Cette instalation étant un peu complexe, voici quelques liens utiles selon votr
 Vous voilà enfin prêts pour votre projet ! :D
 
 ## Contenu [[revenir au sommaire]](#sommaire)
-#### Scripts PHP
+### Scripts PHP
 
 Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lier votre base de données MySQL avec votre serveur web. Par exemple lire & écrire dans une base de données, envoyer à un client ou serveur une requête web.
 
@@ -67,14 +67,14 @@ Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lie
 2. **getTable.php** : un fichier qui montre comment récupérer des valeurs d'une base de données et les afficher dans une page HTML
 3. **updateTable.php** : un fichier qui montre que l'on peut modifier depuis un script php le contenu d'une base de données
 
-#### Programmes Arduino
+### Programmes Arduino
 
 Dans le dossier arduino, vous trouverez quelques programmes qui vous permettrons d'envoyer et de recevoir des informations avec votre carte arduino. Vous trouverez égalements quelques astuces pour construire vos programmes.
 
 1. **connectionServer.ino** : un fichier qui montre que l'on peut écrire depuis une programme arduino dans une base de données
 2. **getInfos.ino** : un fichier qui montre que l'on peut recevoir des informations depuis une page web et les traiter sur la carte arduino
 
-#### Scripts SQL
+### Scripts SQL
 
 Dans le dossier SQL, vous trouverez quelques scripts simple pour préparer vos requêtes avec PHP
 
