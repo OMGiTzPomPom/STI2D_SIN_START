@@ -9,9 +9,7 @@
  * | @license    https://creativecommons.org/licenses/by/4.0/  License CC BY 4.0|
  * | @since      File available since 10/08/2019                                |
  *  ----------------------------------------------------------------------------
- */
-
-/**
+ *
  * Le but de ce script est de définir les variables pour vos connexions à vos BDD
  */
 
