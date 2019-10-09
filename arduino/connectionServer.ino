@@ -22,6 +22,7 @@ void main() {
     if (client.connect(server, 80)) {
         Serial.println("connected");
         client.print("GET file.php?variable"); //mettre ici l'adresse du fichier php qui doit écrire dans la base de données depuis arduino avec un paramètre "variable"
+	client.print(variable);
         client.println(" HTTP/1.1");
         client.println("Host: 192.168.1.3"); // adresse IPv4 de la carte raspberry
         Serial.println("Connection: close");
