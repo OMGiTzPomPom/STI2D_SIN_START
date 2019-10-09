@@ -63,22 +63,22 @@ Vous voilà enfin prêts pour votre projet ! :D
 
 Dans le dossier php, vous trouverez quelques scripts qui vous permettrons de lier votre base de données MySQL avec votre serveur web. Par exemple lire & écrire dans une base de données, envoyer à un client ou serveur une requête web.
 
-1. database.php : le fichier de configuration de votre base de données
-2. getTable.php : un fichier qui montre comment récupérer des valeurs d'une base de données et les afficher dans une page HTML
-3. updateTable.php : un fichier qui montre que l'on peut modifier depuis un script php le contenu d'une base de données
+1. **database.php** : le fichier de configuration de votre base de données
+2. **getTable.php** : un fichier qui montre comment récupérer des valeurs d'une base de données et les afficher dans une page HTML
+3. **updateTable.php** : un fichier qui montre que l'on peut modifier depuis un script php le contenu d'une base de données
 
 #### Programmes Arduino
 
 Dans le dossier arduino, vous trouverez quelques programmes qui vous permettrons d'envoyer et de recevoir des informations avec votre carte arduino. Vous trouverez égalements quelques astuces pour construire vos programmes.
 
-1. connectionServer.ino : un fichier qui montre que l'on peut écrire depuis une programme arduino dans une base de données
-2. getInfos.ino : un fichier qui montre que l'on peut recevoir des informations depuis une page web et les traiter sur la carte arduino
+1. **connectionServer.ino** : un fichier qui montre que l'on peut écrire depuis une programme arduino dans une base de données
+2. **getInfos.ino** : un fichier qui montre que l'on peut recevoir des informations depuis une page web et les traiter sur la carte arduino
 
 #### Scripts SQL
 
 Dans le dossier SQL, vous trouverez quelques scripts simple pour préparer vos requêtes avec PHP
 
-1. infos.sql : le fichier de creation de la base de données pour montrer le fonctionnement de ce repo
+1. **infos.sql** : le fichier de creation de la base de données pour montrer le fonctionnement de ce repo
 
 ## License [[revenir au sommaire]](#sommaire)
 
