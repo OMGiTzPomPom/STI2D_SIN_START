@@ -16,7 +16,7 @@
 $servername = "localhost"; //Vous devez remplacer ici le "localhost" par l'adresse de votrebase de données
 $username = "root"; //Vous devez indiquer votre nom d'utilisateur pour accèder à la base de données
 $password = "root"; //Vous devez indiquer ici le mot de passe
-$dbname = "database"; //Vous devez remplace le "database" par le nom de la table de votre base de données.
+$dbname = "database"; //Vous devez remplace le "database" par le nom de votre base de données.
 
 
 
