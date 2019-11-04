@@ -11,7 +11,6 @@ void setup() {
   if (Ethernet.begin(mac) == 0) {
     Serial.println("Failed to configure Ethernet using DHCP");
     for (;;) {
-        ;
     }
   }
   delay(500);
